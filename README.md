@@ -4,7 +4,7 @@
 
 Собираю инфраструктуру целиком — от установки Linux-сервера в консоли до Helm-релиза в кластере Kubernetes. Каждый проект в портфолио это работающий стенд на виртуальных машинах, а не пересказ документации: развёрнут, проверен и разобран в отчёте со скриншотами команд и их вывода.
 
-**Портфолио → [github.com/sher2yja/portfolio](https://github.com/sher2yja/portfolio)**
+**Сайт → [sher2yja.github.io](https://sher2yja.github.io)** · **Исходники → [github.com/sher2yja/portfolio](https://github.com/sher2yja/portfolio)**
 
 ---
 
