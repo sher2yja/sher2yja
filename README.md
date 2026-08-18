@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | **Оркестрация и контейнеры** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![k3s](https://img.shields.io/badge/k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=flat-square&logo=vagrant&logoColor=white) |
-| **Автоматизация и доставка** | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Consul](https://img.shields.io/badge/Consul-F24C53?style=flat-square&logo=consul&logoColor=white) ![Envoy](https://img.shields.io/badge/Envoy-AC6199?style=flat-square&logo=envoyproxy&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) |
+| **Автоматизация и доставка** | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Consul](https://img.shields.io/badge/Consul-F24C53?style=flat-square&logo=consul&logoColor=white) ![Envoy](https://img.shields.io/badge/Envoy-AC6199?style=flat-square&logo=envoyproxy&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 | **Мониторинг** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 | **Системы и данные** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) ![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![ANSI SQL](https://img.shields.io/badge/ANSI%20SQL-336791?style=flat-square) |
 
@@ -23,6 +23,7 @@
 
 | Проект | О чём | Технологии |
 |---|---|---|
+| [Непрерывная доставка чартом Helm](https://github.com/sher2yja/portfolio/tree/main/devops_projects/helm-cd-pipeline) | Конвейер GitHub Actions поднимает одноразовый кластер k3d прямо в раннере и проверяет чарт на живом приложении; по тегу тот же артефакт уходит в реестр и разворачивается уже оттуда | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![k3d](https://img.shields.io/badge/k3d-FFC61C?style=flat-square&logo=k3s&logoColor=black) |
 | [Helm и Kustomize](https://github.com/sher2yja/portfolio/tree/main/devops_projects/helm-kustomize-deploy) | Одно приложение доставляется двумя независимыми путями. Отдельно — передача уже работающих объектов под управление Helm без простоя | ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
 | [Кластер k3s с TLS](https://github.com/sher2yja/portfolio/tree/main/devops_projects/k3s-cluster-tls) | Кластер с нуля на трёх машинах: замена штатного Ingress на NGINX, wildcard-сертификат, постоянное хранилище для базы | ![k3s](https://img.shields.io/badge/k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white) ![cert-manager](https://img.shields.io/badge/cert--manager-326CE5?style=flat-square) |
 | [Микросервисы в Kubernetes](https://github.com/sher2yja/portfolio/tree/main/devops_projects/k8s-microservices) | Приложение из 7 микросервисов в собственном наборе манифестов — от `Namespace` до `Deployment` | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
@@ -30,19 +31,19 @@
 | [Стек мониторинга](https://github.com/sher2yja/portfolio/tree/main/devops_projects/observability-stack) | Метрики, логи и оповещения для кластера Swarm сведены на один дашборд | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
 | [Конвейер GitLab CI/CD](https://github.com/sher2yja/portfolio/tree/main/devops_projects/gitlab-cicd-pipeline) | Стиль, сборка, тесты, доставка — с уведомлением в Telegram после каждой стадии и выкладкой на сервер по кнопке | ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) |
 
-Это шесть проектов из тринадцати опубликованных; ещё два сейчас в работе. Полный список — в [портфолио](https://github.com/sher2yja/portfolio).
+Это семь проектов из четырнадцати опубликованных; ещё один сейчас в работе. Полный список — в [портфолио](https://github.com/sher2yja/portfolio).
 
 ---
 
-### Одно приложение, шесть способов доставки
+### Одно приложение, семь способов доставки
 
 ```
-   Compose ──► Swarm ──► Ansible ──► манифесты K8s ──► k3s ──► Helm
-   одна ВМ    кластер    роли и       Namespace…       свой     чарт и
-              из 3       Consul       Deployment       кластер  Kustomize
+   Compose ──► Swarm ──► Ansible ──► манифесты K8s ──► k3s ──► Helm    ──► конвейер
+   одна ВМ    кластер    роли и       Namespace…       свой     чарт и     доставка
+              из 3       Consul       Deployment       кластер  Kustomize  чартом
 ```
 
-Шесть проектов разворачивают **одно и то же приложение** — систему бронирования отелей из 7 микросервисов на Spring Boot с PostgreSQL и RabbitMQ. Меняется только способ доставки. Это даёт возможность сравнивать инструменты не по документации, а на одной задаче: видно, что каждый следующий убирает, что добавляет и какой ценой.
+Семь проектов разворачивают **одно и то же приложение** — систему бронирования отелей из 7 микросервисов на Spring Boot с PostgreSQL и RabbitMQ. Меняется только способ доставки. Это даёт возможность сравнивать инструменты не по документации, а на одной задаче: видно, что каждый следующий убирает, что добавляет и какой ценой.
 
 ---
 
