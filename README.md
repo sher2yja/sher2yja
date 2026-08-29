@@ -31,7 +31,7 @@
 | [Стек мониторинга](https://github.com/sher2yja/portfolio/tree/main/devops_projects/observability-stack) | Метрики, логи и оповещения для кластера Swarm сведены на один дашборд | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
 | [Конвейер GitLab CI/CD](https://github.com/sher2yja/portfolio/tree/main/devops_projects/gitlab-cicd-pipeline) | Стиль, сборка, тесты, доставка — с уведомлением в Telegram после каждой стадии и выкладкой на сервер по кнопке | ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) |
 
-Это семь проектов из шестнадцати опубликованных; ещё один сейчас в работе. Полный список — в [портфолио](https://github.com/sher2yja/portfolio).
+Это семь проектов из семнадцати опубликованных; ещё один сейчас в работе. Полный список — в [портфолио](https://github.com/sher2yja/portfolio).
 
 ---
 
