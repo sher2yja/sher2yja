@@ -20,13 +20,14 @@
 
 ---
 
-### Собственный продукт
+### Собственные продукты
 
-Не отчёт о стенде, а программа: её скачивают и ей пользуются. Единственная работа с версией и релизами — она живёт отдельным репозиторием и в счёт двадцати проектов портфолио не входит.
+Не отчёты о стендах, а две программы: их скачивают и ими пользуются. Один медиастек упакован для Linux в k3s, другой — для Windows в Docker Compose. Оба живут отдельными репозиториями и в счёт двадцати проектов портфолио не входят.
 
 | Проект | О чём | Технологии |
 |---|---|---|
 | [Домашний медиасервер на k3s](https://github.com/sher2yja/home-media-k3s) | Шесть сервисов медиатеки в кластере k3s, а ставит их на чужую машину один скачанный файл — без командной строки и без единой зависимости. Конвейер на каждый тег поднимает настоящий k3s и прогоняет установку тем же кодом, что попадёт к пользователю. [Релизы](https://github.com/sher2yja/home-media-k3s/releases) | ![k3s](https://img.shields.io/badge/k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| [Home Media Lite для Windows](https://github.com/sher2yja/home-media-lite) | Docker Compose в WSL2 вместо кластера: один `.exe` готовит Windows, поднимает семь контейнеров, связывает сервисы через API и выключает весь стек одной кнопкой. E2E проверяет живой compose-стек до публикации. [Релизы](https://github.com/sher2yja/home-media-lite/releases) | ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white) ![WSL2](https://img.shields.io/badge/WSL2-0078D4?style=flat-square&logo=windows&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 
 ---
 
