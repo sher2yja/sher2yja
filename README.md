@@ -2,7 +2,7 @@
 
 **DevOps-инженер** · Москва
 
-Собираю инфраструктуру целиком — от установки Linux-сервера в консоли до непрерывной доставки в кластер Kubernetes: чарты Helm, конвейеры CI/CD, мониторинг на Prometheus и Grafana. Каждый проект в портфолио это работающий стенд на виртуальных машинах, а не пересказ документации: развёрнут, проверен и разобран в отчёте со скриншотами команд и их вывода.
+Собираю инфраструктуру целиком — от установки Linux-сервера в консоли до непрерывной доставки в кластер Kubernetes: чарты Helm, конвейеры CI/CD, мониторинг на Prometheus и Grafana. Каждый проект в портфолио развёрнут и проверен на живом стенде, а не пересказан по документации: к нему есть отчёт со скриншотами команд и их вывода. А один доведён до продукта — его скачивают релизом и ставят одним файлом.
 
 **Сайт → [sher2yja.github.io](https://sher2yja.github.io)** · **Исходники → [github.com/sher2yja/portfolio](https://github.com/sher2yja/portfolio)**
 
@@ -16,7 +16,17 @@
 | **Автоматизация и доставка** | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Consul](https://img.shields.io/badge/Consul-F24C53?style=flat-square&logo=consul&logoColor=white) ![Envoy](https://img.shields.io/badge/Envoy-AC6199?style=flat-square&logo=envoyproxy&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 | **Мониторинг** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 | **Системы и данные** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) ![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![ANSI SQL](https://img.shields.io/badge/ANSI%20SQL-336791?style=flat-square) |
-| **Языки и параллелизм** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![multiprocessing](https://img.shields.io/badge/multiprocessing-3776AB?style=flat-square&logo=python&logoColor=white) ![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white) ![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=flat-square&logo=aiohttp&logoColor=white) |
+| **Языки и параллелизм** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![multiprocessing](https://img.shields.io/badge/multiprocessing-3776AB?style=flat-square&logo=python&logoColor=white) ![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white) ![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=flat-square&logo=aiohttp&logoColor=white) ![tkinter](https://img.shields.io/badge/tkinter-3776AB?style=flat-square&logo=python&logoColor=white) ![PyInstaller](https://img.shields.io/badge/PyInstaller-3776AB?style=flat-square&logo=python&logoColor=white) |
+
+---
+
+### Собственный продукт
+
+Не отчёт о стенде, а программа: её скачивают и ей пользуются. Единственная работа с версией и релизами — она живёт отдельным репозиторием и в счёт двадцати проектов портфолио не входит.
+
+| Проект | О чём | Технологии |
+|---|---|---|
+| [Домашний медиасервер на k3s](https://github.com/sher2yja/home-media-k3s) | Шесть сервисов медиатеки в кластере k3s, а ставит их на чужую машину один скачанный файл — без командной строки и без единой зависимости. Конвейер на каждый тег поднимает настоящий k3s и прогоняет установку тем же кодом, что попадёт к пользователю. [Релизы](https://github.com/sher2yja/home-media-k3s/releases) | ![k3s](https://img.shields.io/badge/k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 
 ---
 
